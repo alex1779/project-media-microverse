@@ -1,0 +1,170 @@
+#author-text {
+  font-size: 10px;
+  font-family: Roboto, Arial, sans-serif;
+  background-color: yellow;
+  font-style: italic;
+}
+
+.author {
+  min-width: 1352px;
+  min-height: 10px;
+  background-color: yellow;
+}
+
+#masthead-container {
+  height: 56px;
+  min-width: 1352px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+#container {
+  height: 56px;
+  width: 1300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: yellow;
+}
+
+#start {
+  height: 56px;
+  width: 169px;
+  background-color: green;
+}
+
+#center {
+  height: 40px;
+  width: 728px;
+  background-color: red;
+}
+
+#end {
+  height: 40px;
+  width: 225px;
+  background-color: blue;
+}
+
+.columns-class {
+  width: 1352px;
+  height: 3255px;
+  min-width: 1352px;
+  min-height: 3255px;
+  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#primary {
+  width: 640px;
+  height: 3230px;
+  padding-top: 24px;
+  padding-right: 24px;
+  margin-left: 24px;
+  background-color: green;
+}
+
+#secondary {
+  width: 402px;
+  height: 3230px;
+  padding-top: 24px;
+  padding-right: 24px;
+  background-color: yellow;
+}
+
+#player {
+  height: 360px;
+  width: 640px;
+  background-color: yellow;
+}
+
+#below {
+  height: 2870px;
+  width: 640px;
+  background-color: red;
+}
+
+#related {
+  height: 2870px;
+  width: 640px;
+  background-color: red;
+}
+
+#player-ads {
+  height: 2870px;
+  width: 640px;
+  background-color: red;
+}
+
+#items {
+  height: 2870px;
+  width: 640px;
+  background-color: red;
+}
+
+.start-browser-tab {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 56px;
+  align-items: center;
+  background-color: yellow;
+
+}
+
+.center-browser-tab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 0 1 728px;
+  min-width: 0px;
+  min-height: 56px;
+  /*background-color: green;*/
+
+}
+
+.search-center-browser-tab {
+  flex: 0 1 525px;
+  min-width: 525px;
+}
+
+.end-browser-tab {
+  min-width: 225px;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: blue;
+
+}
+
+.label-logo_youtube {
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.search-center-browser-tab {
+  min-height: 36px;
+  background: transparent;
+  min-width: 525px;
+}
+
+
+
+#search-icon-legacy {
+  border: 1px solid var(--ytd-searchbox-legacy-button-border-color);
+  background-color: var(--ytd-searchbox-legacy-button-color);
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+  height: 40px;
+  width: 64px;
+  margin: 0;
+}
