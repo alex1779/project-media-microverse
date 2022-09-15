@@ -1,14 +1,12 @@
 #author-text {
   font-size: 10px;
   font-family: Roboto, Arial, sans-serif;
-  background-color: yellow;
   font-style: italic;
 }
 
 .author {
   min-width: 1352px;
   min-height: 10px;
-  background-color: yellow;
 }
 
 #masthead-container {
@@ -18,7 +16,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  background-color: gray;
 }
 
 #container {
@@ -28,25 +26,100 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: yellow;
+  background-color: lightgray;
 }
 
 #start {
   height: 56px;
   width: 169px;
-  background-color: green;
+  background-color: lightcoral;
+  align-items: center;
+
+}
+
+#name-label{
+  font-size: 10px;
+  font-family: Roboto, Arial, sans-serif;
+  font-style: italic;
 }
 
 #center {
   height: 40px;
   width: 728px;
-  background-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: lightseagreen;
+}
+
+#search-bar {
+  height: 24px;
+  width: 524px;
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+
+  position: relative;
+  align-items: center;
+
+  border-right-color: currentcolor;
+  border-right-style: none;
+  border-right-width: medium;
+
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 2px;
+
+  padding-top: 2px;
+  padding-right: 6px;
+  padding-bottom: 2px;
+  padding-left: 6px;
+
+  margin-left: 34px;
+
+}
+
+#search-bar-input {
+  height: 24px;
+  width: 524px;
+  font-family: Roboto,Noto,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border: none;
+  box-shadow: none;
+}
+
+#search-bar-button {
+
+  cursor: pointer;
+  height: 40px;
+  width: 64px;
+  margin: 0;
+  background-color: khaki;
+  align-items: center;
+
+  font-size: 10px;
+  font-family: Roboto, Arial, sans-serif;
+
+}
+
+
+#button-voice {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-direction: row;
 }
 
 #end {
   height: 40px;
   width: 225px;
-  background-color: blue;
+  background-color: khaki;
 }
 
 .columns-class {
@@ -54,13 +127,13 @@
   height: 3255px;
   min-width: 1352px;
   min-height: 3255px;
-  background-color: blue;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  background-color: teal;
 }
 
 #primary {
@@ -69,7 +142,7 @@
   padding-top: 24px;
   padding-right: 24px;
   margin-left: 24px;
-  background-color: green;
+  background-color: cadetblue;
 }
 
 #secondary {
@@ -77,38 +150,90 @@
   height: 3230px;
   padding-top: 24px;
   padding-right: 24px;
-  background-color: yellow;
+  background-color: lightblue;
 }
 
 #player {
   height: 360px;
   width: 640px;
-  background-color: yellow;
+  background-color: darkseagreen;
 }
+
+#video-player {
+  height: 360px;
+  width: 640px;
+}
+
+
+
 
 #below {
   height: 2870px;
   width: 640px;
-  background-color: red;
+  background-color: coral;
 }
 
-#related {
-  height: 2870px;
+#info {
+  height: 95px;
   width: 640px;
-  background-color: red;
+  background-color: darkseagreen;
+}
+
+#title-video {
+  height: 26px;
+  width: 640px;
+
+  line-height: 2.6rem;
+  font-weight: 400;
+  max-height: 5.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  font-size: 18px;
+  font-family: Roboto, Arial, sans-serif;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+#meta{
+  height: 181px;
+  width: 640px;
+  background-color: lightblue;
+}
+
+
+
+#related {
+  height: 2500px;
+  width: 402px;
+  background-color: lightblue;
 }
 
 #player-ads {
-  height: 2870px;
-  width: 640px;
-  background-color: red;
+  height: 163px;
+  width: 402px;
+  background-color: khaki;
 }
 
 #items {
-  height: 2870px;
-  width: 640px;
-  background-color: red;
+  height: 2338px;
+  width: 402px;
+  background-color: slategray;
 }
+
+#dismissible {
+
+  height: 94px;
+  width: 402px;
+
+  background-color: lightcoral;
+}
+
+
 
 .start-browser-tab {
   display: flex;
